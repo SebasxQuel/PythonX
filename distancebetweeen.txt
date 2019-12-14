@@ -1,0 +1,8 @@
+def distance(x,y):
+	if len(x) != len(y):
+		return "x and y do not have the same lenght"
+	else:
+		square_difference = [(x[i - y[i])**2 for i in range(len(x))]
+		return math.sqrt(sum(square_difference))
+
+print(distance((0,0),(1,1))

@@ -1,0 +1,11 @@
+def add_and_subs(x,y):
+	mysum = a+b
+	mydiff = a-b
+	return(mysum, mydiff)
+
+def add_and_subs(x,y):
+	add = a+b
+	subs = a-b
+	mult = a*b
+	return(add, subs, mult)
+
